@@ -1,33 +1,16 @@
 :root[bg-theme='light'] {
   --bg-color: white;
+  --font-color: 121212;
 }
   
-:root[bg-theme='gray'] {
-  --bg-color: #42424670;
-}
-
-:root[bg-theme='light-red'] {
-  --bg-color: #eda8a8;
-}
-
-:root[bg-theme='light-blue'] {
-  --bg-color: #55609a;
-}
-
-:root[bg-theme='light-purple'] {
-  --bg-color: #c09ff9;
-}
-
-:root[bg-theme='light-green'] {
-  --bg-color: #91ecd1;
-}
-
-:root[bg-theme='light-yellow'] {
-  --bg-color: #e9e097;
+:root[bg-theme='dark'] {
+  --bg-color: #212121;
+  --font-color: white;
 }
 
 body {
   background-color: var(--bg-color);
+  color: var(--font-color);
 }
 
 @media screen and (max-width: 768px){
